@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": ""
+        },
+        "name": {
+            "value": "azfunctest"
+        },
+        "location": {
+            "value": "USGov Virginia"
+        },
+        "ftpsState": {
+            "value": "Disabled"
+        },
+        "storageAccountName": {
+            "value": "azfunctestaafd"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "powerShellVersion": {
+            "value": "7.2"
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        },
+        "hostingPlanName": {
+            "value": "ASP-azfunctest-8fef"
+        },
+        "serverFarmResourceGroup": {
+            "value": "azfunctest1"
+        },
+        "alwaysOn": {
+            "value": false
+        }
+    }
+}
