@@ -112,7 +112,7 @@
                         },
                         {
                             "name": "WEBSITE_CONTENTSHARE",
-                            "value": "azfunctesta872"
+                            "value": "FUNC_SHARE"
                         }
                     ],
                     "cors": {
