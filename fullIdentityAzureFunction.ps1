@@ -22,9 +22,9 @@ $random=([char[]]([char]'a'..[char]'z') + 0..9 | sort {get-random})[0..4] -join 
 $template = get-content -raw C:\temp\func\template.json
 
 $template = $template -replace 'VAULT_NAME',$kvName
-$template = $template -replace 'VAULT_NAME',$kvName
 $template = $template -replace 'IDENTITY_RESOURCE_ID',$uami.id 
 $template = $template -replace 'SUBSCRIPTION_ID',$subscriptionId
+$template = $template -replace 'FUNC_SHARE',"$funcName$random"
 
 $template | Set-Content -Path C:\temp\func\armfunc.json
 
